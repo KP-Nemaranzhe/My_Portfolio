@@ -1,2 +1,2 @@
 # My_Portfolio
-#This is my vitual cv
+#This is my virtual cv
