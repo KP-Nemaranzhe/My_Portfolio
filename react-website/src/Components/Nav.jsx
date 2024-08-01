@@ -1,7 +1,7 @@
 
 const Nav = () => {
     const content = <>
-    <div className="">
+    <div className="s">
         <ul>
             <link to="Home">
                 <li>Home</li>
