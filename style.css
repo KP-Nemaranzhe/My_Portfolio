@@ -1,33 +1,40 @@
 /* GENERAL */
 
+/* Importing Google font "Poppins" with different font weights */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+/* Resetting margin and padding for all elements */
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Setting the default font family for the body */
 body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Enabling smooth scroll behavior for the webpage */
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; 
 }
 
+/* Styling for paragraph elements */
 p {
   color: rgb(85, 85, 85);
 }
 
 /* TRANSITION */
 
+/* Adding smooth transition effects for links and buttons */
 a,
 .btn {
-  transition: all 300ms ease;
+  transition: all 300ms ease; 
 }
 
 /* DESKTOP NAV */
 
+/* Displaying navigation elements using flexbox */
 nav,
 .nav-links {
   display: flex;
@@ -39,18 +46,21 @@ nav {
   height: 17vh;
 }
 
+/* Styling for navigation links */
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
+/* Styling for anchor tags */
 a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
 
+/* Hover effect for anchor tags */
 a:hover {
   color: grey;
   text-decoration: underline;
@@ -58,16 +68,19 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+/* Styling for logo */
 .logo {
   font-size: 2rem;
 }
 
+/* Preventing cursor change on hover for the logo */
 .logo:hover {
   cursor: default;
 }
 
 /* HAMBURGER MENU */
 
+/* Hiding the hamburger navigation by default */
 #hamburger-nav {
   display: none;
 }
@@ -86,6 +99,7 @@ a:hover {
   cursor: pointer;
 }
 
+/* Styling for the hamburger menu icon */
 .hamburger-icon span {
   width: 100%;
   height: 2px;
@@ -93,6 +107,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+/* Styling for the dropdown menu */
 .menu-links {
   position: absolute;
   top: 100%;
@@ -104,6 +119,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+/* Styling for links within the dropdown menu */
 .menu-links a {
   display: block;
   padding: 10px;
@@ -118,10 +134,12 @@ a:hover {
   list-style: none;
 }
 
+/* Class for opening the dropdown menu */
 .menu-links.open {
   max-height: 300px;
 }
 
+/* Transformations for the hamburger icon when the menu is open */
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
 }
@@ -134,6 +152,7 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
+/* Reset transformations for the hamburger icon */
 .hamburger-icon span:first-child {
   transform: none;
 }
@@ -148,6 +167,7 @@ a:hover {
 
 /* SECTIONS */
 
+/* General styling for sections */
 section {
   padding-top: 4vh;
   height: 96vh;
@@ -156,6 +176,7 @@ section {
   min-height: fit-content;
 }
 
+/* Container for section elements */
 .section-container {
   display: flex;
 }
@@ -169,6 +190,7 @@ section {
   height: 80vh;
 }
 
+/* Container for profile picture */
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -176,11 +198,13 @@ section {
   margin: auto 0;
 }
 
+/* Styling for profile text */
 .section__text {
   align-self: center;
   text-align: center;
 }
 
+/* Font weight for profile text */
 .section__text p {
   font-weight: 600;
 }
@@ -189,16 +213,19 @@ section {
   text-align: center;
 }
 
+/* Font size and margin for profile text */
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
 
+/* Title styling */
 .title {
   font-size: 3rem;
   text-align: center;
 }
 
+/* Container for social icons */
 #socials-container {
   display: flex;
   justify-content: center;
@@ -208,6 +235,7 @@ section {
 
 /* ICONS */
 
+/* Styling for icons */
 .icon {
   cursor: pointer;
   height: 2rem;
@@ -215,12 +243,14 @@ section {
 
 /* BUTTONS */
 
+/* Container for buttons */
 .btn-container {
   display: flex;
   justify-content: center;
   gap: 1rem;
 }
 
+/* General button styling */
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
@@ -229,11 +259,13 @@ section {
   border-radius: 2rem;
 }
 
+/* Styling for different button color variations */
 .btn-color-1,
 .btn-color-2 {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
+/* Hover effects for buttons */
 .btn-color-1:hover,
 .btn-color-2:hover {
   cursor: pointer;
@@ -267,6 +299,7 @@ section {
   position: relative;
 }
 
+/* Containers for about section details */
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -283,16 +316,19 @@ section {
   display: flex;
 }
 
+/* Styling for about section picture */
 .about-pic {
   border-radius: 2rem;
 }
 
+/* Positioning for arrows */
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
 
+/* Container for detail sections */
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -303,6 +339,7 @@ section {
   text-align: center;
 }
 
+/* Container styling for about section */
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -320,6 +357,7 @@ section {
   position: relative;
 }
 
+/* Subtitle styling for experience section */
 .experience-sub-title {
   color: rgb(85, 85, 85);
   font-weight: 600;
@@ -327,12 +365,14 @@ section {
   margin-bottom: 2rem;
 }
 
+/* Container for experience details */
 .experience-details-container {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
+/* Container for experience articles */
 .article-container {
   display: flex;
   text-align: initial;
@@ -342,6 +382,7 @@ section {
   justify-content: space-around;
 }
 
+/* Styling for articles */
 article {
   display: flex;
   width: 10rem;
@@ -349,6 +390,7 @@ article {
   gap: 0.5rem;
 }
 
+/* Preventing cursor change on hover for article icons */
 article .icon {
   cursor: default;
 }
@@ -359,28 +401,32 @@ article .icon {
   position: relative;
 }
 
+/* Styling for project containers */
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
 }
 
+/* Styling for project images */
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
 }
 
+/* Styling for project titles */
 .project-title {
   margin: 1rem;
   color: black;
 }
 
+/* Styling for project buttons */
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
 }
 
-/* CONTACT */
+/* CONTACT SECTION */
 
 #contact {
   display: flex;
@@ -389,6 +435,7 @@ article .icon {
   height: 70vh;
 }
 
+/* Upper container for contact info */
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
@@ -400,6 +447,7 @@ article .icon {
   padding: 0.5rem;
 }
 
+/* Container for individual contact info items */
 .contact-info-container {
   display: flex;
   align-items: center;
@@ -408,25 +456,30 @@ article .icon {
   margin: 1rem;
 }
 
+/* Larger font size for contact info text */
 .contact-info-container p {
   font-size: larger;
 }
 
+/* Preventing cursor change on hover for contact icons */
 .contact-icon {
   cursor: default;
 }
 
+/* Styling for email icon */
 .email-icon {
   height: 2.5rem;
 }
 
 /* FOOTER SECTION */
 
+/* Styling for the footer */
 footer {
   height: 26vh;
   margin: 0 1rem;
 }
 
+/* Center aligning text in the footer */
 footer p {
   text-align: center;
 }
