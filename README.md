@@ -61,8 +61,6 @@ To view and develop the code locally, follow these steps:
 - **Contribution**: Encourages others to fork and modify the project with proper attribution.
 - **Contact**: Offers a way to reach out for questions or feedback.
 
-Replace placeholders like `<color>`, `[Your Repository URL]`, `[View Live Site](#)`, and `[Your Email Address](mailto:your-email@example.com)` with your actual content.
-
 
 ###🤝 Contribution
 
