@@ -12,6 +12,16 @@ Welcome to my **portfolio website**! This project showcases my skills, projects,
 - **CSS**: Styling, animations, transitions, and responsive design.
 - **JavaScript**: Interactive elements and dynamic features.
 
+## 📊 Language Contribution
+
+Here’s a visual representation of the contribution of each language used in this project:
+
+![Language Contribution](https://quickchart.io/chart?c=%7Btype:'pie',data:%7Blabels:['HTML','CSS','JavaScript'],datasets:[%7Bdata:[40,40,20],backgroundColor:['#FF5733','#33FF57','#3357FF']%7D]%7D%7D)
+
+- **HTML**: 40% – Used for structuring the content and layout.
+- **CSS**: 40% – Used for styling and animations.
+- **JavaScript**: 20% – Used for interactive elements.
+
 ## 🏠 Features
 
 - **Home Page**: An engaging introduction with a welcome message and an overview.
