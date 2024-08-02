@@ -1,51 +1,23 @@
-# Developer Portfolio
+# Front-end-dev-portfolio
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/PhantomScript/asset-container/b26b0ebaaa13bec7fac796ee0b8296676df6ee0b/developer-portfolio/website.svg" alt="" width="450px"/>
-</p>
+A front-end web developer is responsible for implementing visual and interactive elements that users engage with through their web browser when using a web application. ... A front-end web developer is responsible for implementing visual elements that users see and interact with in a web application.
 
-## Create Your Portfolio Easily
+![](./fontendport.PNG)
 
-- User-friendly, customizable developer portfolio with multiple themes.
-- Suitable for developers and freelancers.
+# Feature
+Only Html And CSS Based Project. 
 
-## Table of Contents
+Pages:
+- Home 
+- About
+- Portfolio
+- Blogs
+- Contact
 
-- [Sections](#sections)
-- [Demo](#demo)
-- [Themes](#themes)
-- [Installation](#installation)
-- [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
-- [Usage](#usage)
-- [Hosting](#hosting)
-- [SEO](#seo)
-- [Packages Used](#packages-used)
-- [APIs Used](#apis-used)
-- [Fonts and Images](#fonts-and-images)
-- [Upcoming Features](#upcoming-features)
-- [Contributors](#contributors)
-
-# Sections
-
-- HOME
-- ABOUT
-- RESUME
-- SERVICES
-- BLOG
-- CONTACTS
 
 # Demo
+[Youtube](https://youtu.be/BNOTvGjRj3A)
 
-![Demo](https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/demo.gif)
-[Live Demo](https://portfolio-devesh-verma.vercel.app/)
 
-# Installation
-
-### Prerequisites
-
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download)
-
-### Clone Repository
-
+# Contribution
+Open To Fork, Give Give Me a Simple credit
