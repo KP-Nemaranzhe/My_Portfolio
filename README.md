@@ -68,6 +68,6 @@ Feel free to fork this project and make modifications. If you use or adapt any p
 
 ## Contact📫 
 
-For any questions or feedback, please reach out to me at: Your Email Address
+For any questions or feedback, please reach out to me at: pronemaranzhe@gmail.com
 
 Thank you for visiting my portfolio website!
