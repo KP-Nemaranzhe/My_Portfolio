@@ -644,16 +644,6 @@ section {
   transform: translateY(50px); /* Initial position */
 }
 
-.image {
-  display: inline-block; /* Ensures the div wraps tightly around the image */
-}
-
-.glow-image {
-  filter: drop-shadow(0 0 10px blue) drop-shadow(0 0 20px blue);
-  /* Adjust the pixel values to control the intensity of the glow */
-}
-
-
 
 /* Keyframes for the image animation */
 @keyframes fadeInSlideUp {
