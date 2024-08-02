@@ -49,7 +49,8 @@ To view and develop the code locally, follow these steps:
         Open the HTML file you want to view (e.g., index.html).
         Right-click on the HTML file in the editor or Explorer view and select Open with Live Server, or click the "Go Live" button in the status bar at the bottom-right of the VS Code window.
 
-    This will open a new browser window displaying your site, and any changes you make to the files will automatically be reflected in the browser.
+    This will open a new browser window displaying your site, and any changes you make to the files will automatically be 
+    reflected in the browser.
 
 
 ### Key Points:
