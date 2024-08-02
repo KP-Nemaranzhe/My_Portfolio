@@ -1287,7 +1287,123 @@ textarea {
   gap: 15px; /* Reduced gap between boxes */
 }
 
+/* Mobile styles */
+@media (max-width: 768px) {
+  .home {
+      padding: 10px; /* Adjust padding for mobile screens */
+  }
 
+  .home .image {
+      display: none; /* Hide the image container on mobile screens */
+  }
+
+  .home .content {
+      max-width: 90%; /* Reduce the container size for mobile screens */
+      padding: 40px; /* Reduce padding for mobile screens */
+      font-size: 16px; /* Adjust text size for mobile */
+      margin-top: 10px; /* Reduce margin above the content */
+  }
+
+  .home .content h3 {
+      font-size: 26px; /* Adjust heading size for mobile */
+  }
+
+  .home .content span {
+      font-size: 18px; /* Adjust span size for mobile */
+  }
+
+  .home .content p {
+      font-size: 14px; /* Adjust paragraph size for mobile */
+  }
+
+  .home .content .btn {
+      font-size: 16px; /* Adjust button text size for mobile */
+  }
+
+  .home .content a {
+      font-size: 22px; /* Adjust icon size for mobile */
+      margin: 0 5px; /* Adjust spacing around icons */
+  }
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  flex: 1;
+  min-width: 250px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box i {
+  font-size: 36px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.box p {
+  font-size: 14px;
+  color: #666;
+}
+
+
+
+
+
+/* Additional smaller screen sizes */
+@media (max-width: 480px) {
+  .home {
+      padding: 5px; /* Further adjust padding for very small screens */
+  }
+
+  .home .content {
+      max-width: 95%; /* Further reduce the container size for very small screens */
+      padding: 30px; /* Reduce padding for very small screens */
+  }
+
+  .home .content h3 {
+      font-size: 28px; /* Adjust heading size for very small screens */
+  }
+
+  .home .content span {
+      font-size: 20px; /* Adjust span size for very small screens */
+  }
+
+  .home .content p {
+      font-size: 16px; /* Adjust paragraph size for very small screens */
+  }
+
+  .home .content .btn {
+      font-size: 18px; /* Adjust button text size for very small screens */
+  }
+
+  .home .content a {
+      font-size: 24px; /* Adjust icon size for very small screens */
+  }
+}
 
 
 
